@@ -9,30 +9,26 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-      
+
+      # 👇 NYT step: viser hvilke filer GitHub faktisk ser
       - name: List files (debug)
-        run: |
-          echo "=== Repository structure ==="
-          ls -la
-          echo "=== Looking for .sln files ==="
-          find . -name "*.sln"
-          echo "=== Looking for .csproj files ==="
-          find . -name "*.csproj"
-      
+        run: ls -R
+
+      # 👇 Ret dette til præcis navnet på din .sln-fil
       - name: Restore dependencies
-        run: dotnet restore
-      
+        run: dotnet restore CICDOpgave.sln
+
       - name: Build
-        run: dotnet build --no-restore --configuration Release
-      
+        run: dotnet build CICDOpgave.sln --no-restore --configuration Release
+
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal --configuration Release
+        run: d

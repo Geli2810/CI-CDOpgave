@@ -1,6 +1,0 @@
-@CI_CDOpgave_HostAddress = http://localhost:5101
-
-GET {{CI_CDOpgave_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
