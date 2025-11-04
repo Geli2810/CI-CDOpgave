@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI&CDOpgave", "CI&CDOpgave.csproj", "{619C42CC-52AC-4861-AB5A-FCA927896A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLibaryTest", "..\BookLibaryTest\BookLibaryTest.csproj", "{FB170B3B-EAAC-461D-BCB5-769BBCBCC5D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{619C42CC-52AC-4861-AB5A-FCA927896A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619C42CC-52AC-4861-AB5A-FCA927896A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619C42CC-52AC-4861-AB5A-FCA927896A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619C42CC-52AC-4861-AB5A-FCA927896A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB170B3B-EAAC-461D-BCB5-769BBCBCC5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB170B3B-EAAC-461D-BCB5-769BBCBCC5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB170B3B-EAAC-461D-BCB5-769BBCBCC5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB170B3B-EAAC-461D-BCB5-769BBCBCC5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {595EBFE4-A316-4FC8-8D74-E68C31096426}
+	EndGlobalSection
+EndGlobal

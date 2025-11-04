@@ -1,0 +1,35 @@
+# Visual Studio midlertidige filer
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# NuGet-pakker
+*.nupkg
+*.snupkg
+packages/
+
+# Test resultater
+TestResults/
+*.coverage
+*.coveragexml
+
+# Konfiguration og miljø
+appsettings.*.json
+.env
+
+# IDE og systemfiler
+*.vscode/
+*.DS_Store
+Thumbs.db
+
+# GitHub workflow mappe beholdes
+!/.github/
+!/.github/workflows/
